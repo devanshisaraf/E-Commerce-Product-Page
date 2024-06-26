@@ -48,6 +48,7 @@ Open `index.html` in your web browser to view the product page.
 
 ## File Structure
 
+```
 E-Commerce-Product-Page/
 ├── assets/
 │   ├── color1.png
@@ -61,9 +62,10 @@ E-Commerce-Product-Page/
 │   ├── shoe-thumbnail2.png
 │   ├── shoe-thumbnail3.png
 │   ├── shoe-thumbnail4.png
-│   └── shoe-thumbnail5.png
+│   ├── shoe-thumbnail5.png
 ├── styles.css
 └── index.html
+```
 
 ## Contributing
 
