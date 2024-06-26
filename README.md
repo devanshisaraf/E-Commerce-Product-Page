@@ -50,18 +50,18 @@ Open `index.html` in your web browser to view the product page.
 
 E-Commerce-Product-Page/
 ├── assets/
-│ ├── logo.png
-│ ├── shoe-main.png
-│ ├── shoe-thumbnail1.png
-│ ├── shoe-thumbnail2.png
-│ ├── shoe-thumbnail3.png
-│ ├── shoe-thumbnail4.png
-│ ├── shoe-thumbnail5.png
-│ ├── color1.png
-│ ├── color2.png
-│ ├── color3.png
-│ ├── color4.png
-│ └── color5.png
+│   ├── color1.png
+│   ├── color2.png
+│   ├── color3.png
+│   ├── color4.png
+│   ├── color5.png
+│   ├── logo.png
+│   ├── shoe-main.png
+│   ├── shoe-thumbnail1.png
+│   ├── shoe-thumbnail2.png
+│   ├── shoe-thumbnail3.png
+│   ├── shoe-thumbnail4.png
+│   └── shoe-thumbnail5.png
 ├── styles.css
 └── index.html
 
