@@ -1,13 +1,13 @@
-
-
+/* Global styles */
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f5f5f5;
 }
 
+/* Header styles */
 header {
     background-color: #fff;
     display: flex;
@@ -17,10 +17,12 @@ header {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Logo styles */
 header .logo img {
     width: 70px;
 }
 
+/* Navigation styles */
 nav ul {
     list-style: none;
     display: flex;
@@ -39,12 +41,14 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Search bar styles */
 .search input {
     padding: 0.5em;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
+/* Main content styles */
 main {
     display: flex;
     padding: 2em;
@@ -54,6 +58,7 @@ main {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+/* Product gallery styles */
 .product-gallery {
     flex: 1;
     display: flex;
@@ -61,43 +66,51 @@ main {
     gap: 1em;
 }
 
+/* Thumbnail images styles */
 .thumbnails img {
     width: 80px;
     margin-bottom: 1em;
     cursor: pointer;
 }
 
+/* Main product image styles */
 .main-image img {
     width: 100%;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
+/* Main product image hover effect */
 .main-image img:hover {
     transform: scale(1.2);
 }
 
+/* Product details styles */
 .product-details {
     flex: 1;
     padding: 2em;
 }
 
+/* Product title styles */
 .product-details h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
+/* Product type styles */
 .product-type {
     color: #777;
     margin-bottom: 1em;
 }
 
+/* Price styles */
 .price {
     color: #e60000;
     font-size: 1.5em;
     margin-bottom: 1em;
 }
 
+/* Rating styles */
 .rating {
     display: flex;
     align-items: center;
@@ -105,16 +118,19 @@ main {
     margin-bottom: 1em;
 }
 
+/* Color options label styles */
 .color {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
+/* Color options images styles */
 .color-options img {
     width: 60px;
     cursor: pointer;
 }
 
+/* Size chart link styles */
 .size-chart a {
     text-decoration: none;
     color: #333;
@@ -123,25 +139,29 @@ main {
     margin: 2em 0 1em 0;
 }
 
-.size-chart a:hover{
+/* Size chart link hover effect */
+.size-chart a:hover {
     text-decoration: underline;
 }
+
+/* Size and quantity selection styles */
 .size-quantity {
     display: inline;
     gap: 1em;
     margin-bottom: 1em;
 }
 
+/* Dropdown select styles */
 select {
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em;
     border: 2px solid #ddd;
     border-radius: 2px;
     background-color: #ddd;
     font-size: 1em;
-    
     margin-bottom: 1em;
 }
 
+/* Add to cart button styles */
 .cta {
     display: inline;
     background-color: #ff3b30;
@@ -154,10 +174,12 @@ select {
     border-radius: 2px;
 }
 
+/* Add to cart button hover effect */
 .cta:hover {
     background-color: #e60000;
 }
 
+/* Save to wish list link styles */
 .wishlist {
     display: block;
     margin-bottom: 1em;
@@ -165,13 +187,17 @@ select {
     color: #333;
 }
 
-.wishlist:hover{
+/* Save to wish list link hover effect */
+.wishlist:hover {
     text-decoration: underline;
 }
+
+/* Additional information section styles */
 .additional-info {
     margin-top: 2em;
 }
 
+/* Live chat button styles */
 .live-chat {
     background-color: #007aff;
     color: #fff;
@@ -182,8 +208,7 @@ select {
     margin-bottom: 1em;
 }
 
-
-/* Mobile Styles */
+/* Mobile styles */
 @media (max-width: 768px) {
     main {
         flex-direction: column;
@@ -198,13 +223,8 @@ select {
     }
 }
 
-
-/* Hover Effects */
+/* Product image hover effect */
 .product-image:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
-}
-
-.cta:hover {
-    background-color: #e60000;
 }
